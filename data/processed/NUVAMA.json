@@ -1,11 +1,11 @@
 {
   "symbol": "NUVAMA",
-  "updated_at": "2026-11-02T20:31:40.894530",
-  "latest_price": 1736.0,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-03T18:07:57.576104",
+  "latest_price": 1866.2,
+  "final_signal": "BUY",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 0,
+    "sell_signals": 3,
     "total_indicators": 10
   },
   "candles": [
@@ -1976,48 +1976,64 @@
       "low": 1700.800048828125,
       "close": 1736.0,
       "volume": 411603
+    },
+    {
+      "time": "2026-11-02",
+      "open": 1716.0,
+      "high": 1820.0999755859375,
+      "low": 1703.0,
+      "close": 1805.0999755859375,
+      "volume": 258091
+    },
+    {
+      "time": "2026-11-03",
+      "open": 1830.300048828125,
+      "high": 1873.5,
+      "low": 1775.0,
+      "close": 1866.199951171875,
+      "volume": 389541
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 47.22,
+      "value": 56.15,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 40.6,
-      "signal": "NEUTRAL"
-    },
-    "MACD": {
-      "value": -4.35,
-      "signal": "BUY"
-    },
-    "MACD_Histogram": 3.31,
-    "CCI": {
-      "value": 7.87,
-      "signal": "NEUTRAL"
-    },
-    "Williams_R": {
-      "value": -50.85,
-      "signal": "NEUTRAL"
-    },
-    "ROC": {
-      "value": -3.97,
+      "value": 100.0,
       "signal": "SELL"
     },
+    "MACD": {
+      "value": 12.66,
+      "signal": "BUY"
+    },
+    "MACD_Histogram": 14.63,
+    "CCI": {
+      "value": 119.21,
+      "signal": "SELL"
+    },
+    "Williams_R": {
+      "value": -2.62,
+      "signal": "SELL"
+    },
+    "ROC": {
+      "value": 8.68,
+      "signal": "BUY"
+    },
     "Momentum": {
-      "value": 18.8,
+      "value": 182.4,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 45.42,
+      "value": 48.54,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 64.59,
-      "signal": "NEUTRAL"
+      "value": 71.33,
+      "signal": "SELL"
     },
     "ADX": {
-      "value": 6.23,
+      "value": 1.83,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2030,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 72.0,
-      "down": 24.0,
-      "signal": "BUY"
+      "up": 80.0,
+      "down": 32.0,
+      "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 1725.8,
+      "value": 1746.01,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 1731.83,
+      "value": 1739.86,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 1700.0,
+      "value": 1705.33,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 1620.64,
+      "value": 1624.9,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 1743.04,
-      "signal": "SELL"
+      "value": 1750.5,
+      "signal": "BUY"
     },
     "SMA50": {
-      "value": 1741.27,
-      "signal": "SELL"
+      "value": 1745.47,
+      "signal": "BUY"
     },
     "SMA200": {
-      "value": 1553.58,
+      "value": 1557.57,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 1866.0,
-      "middle": 1743.04,
-      "lower": 1620.08,
+      "upper": 1881.43,
+      "middle": 1750.5,
+      "lower": 1619.56,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 1881.05,
-      "middle": 1725.8,
-      "lower": 1570.55
+      "upper": 1897.85,
+      "middle": 1746.01,
+      "lower": 1594.17
     },
     "DonchianChannel": {
       "upper": 1886.5,
       "lower": 1595.0
     },
     "ATR": {
-      "value": 69.86
+      "value": 71.1
     },
     "StandardDeviation": {
-      "value": 61.48
+      "value": 65.47
     },
     "OBV": {
-      "value": 24019936,
-      "signal": "SELL"
+      "value": 24667568,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": 0.2274,
+      "value": 0.1631,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 1547.42,
+      "value": 1548.81,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": 139978.2904
+      "value": 202539.183
     }
   }
 }
