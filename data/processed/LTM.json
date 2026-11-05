@@ -1,22 +1,14 @@
 {
   "symbol": "LTM",
-  "updated_at": "2026-11-04T18:16:08.469136",
-  "latest_price": 4204.9,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-05T18:21:19.826497",
+  "latest_price": 4393.0,
+  "final_signal": "BUY",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 1,
+    "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-04",
-      "open": 5675.5,
-      "high": 5719.0,
-      "low": 5587.0,
-      "close": 5620.0,
-      "volume": 165665
-    },
     {
       "time": "2025-11-06",
       "open": 5620.0,
@@ -1991,49 +1983,57 @@
       "high": 4279.0,
       "low": 4156.0,
       "close": 4204.89990234375,
-      "volume": 225182
+      "volume": 225206
+    },
+    {
+      "time": "2026-11-05",
+      "open": 4275.0,
+      "high": 4399.7998046875,
+      "low": 4257.0,
+      "close": 4393.0,
+      "volume": 342423
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 48.64,
+      "value": 58.22,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 0.0,
-      "signal": "BUY"
+      "value": 48.34,
+      "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": -2.07,
+      "value": 15.15,
       "signal": "BUY"
     },
-    "MACD_Histogram": 12.93,
+    "MACD_Histogram": 24.13,
     "CCI": {
-      "value": 33.48,
-      "signal": "NEUTRAL"
+      "value": 115.23,
+      "signal": "SELL"
     },
     "Williams_R": {
-      "value": -43.49,
-      "signal": "NEUTRAL"
+      "value": -5.37,
+      "signal": "SELL"
     },
     "ROC": {
-      "value": -4.22,
-      "signal": "SELL"
+      "value": 3.0,
+      "signal": "BUY"
     },
     "Momentum": {
-      "value": -93.1,
-      "signal": "SELL"
+      "value": 119.0,
+      "signal": "BUY"
     },
     "MFI": {
-      "value": 46.94,
+      "value": 45.55,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 52.13,
+      "value": 59.89,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 11.5,
+      "value": 2.15,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2046,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 52.0,
-      "down": 80.0,
+      "up": 56.0,
+      "down": 84.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 4175.22,
+      "value": 4195.96,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 4212.75,
-      "signal": "SELL"
+      "value": 4219.82,
+      "signal": "BUY"
     },
     "EMA100": {
-      "value": 4277.54,
-      "signal": "SELL"
+      "value": 4280.05,
+      "signal": "BUY"
     },
     "EMA200": {
-      "value": 4504.18,
+      "value": 4505.76,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 4159.45,
+      "value": 4182.6,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 4249.45,
-      "signal": "SELL"
+      "value": 4246.8,
+      "signal": "BUY"
     },
     "SMA200": {
-      "value": 4442.86,
+      "value": 4434.33,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 4400.66,
-      "middle": 4159.45,
-      "lower": 3918.25,
+      "upper": 4420.12,
+      "middle": 4182.6,
+      "lower": 3945.09,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 4463.07,
-      "middle": 4175.22,
-      "lower": 3887.37
+      "upper": 4493.06,
+      "middle": 4195.96,
+      "lower": 3898.86
     },
     "DonchianChannel": {
       "upper": 4419.5,
-      "lower": 3905.6
+      "lower": 3915.0
     },
     "ATR": {
-      "value": 149.29
+      "value": 153.79
     },
     "StandardDeviation": {
-      "value": 120.6
+      "value": 118.76
     },
     "OBV": {
-      "value": -68509,
-      "signal": "SELL"
+      "value": 108225,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": -0.0662,
+      "value": -0.0207,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 4619.92,
+      "value": 4617.3,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -146757.0634
+      "value": 106748.8733
     }
   }
 }
