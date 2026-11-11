@@ -1,22 +1,14 @@
 {
   "symbol": "BEML",
-  "updated_at": "2026-11-10T18:18:35.709738",
-  "latest_price": 1991.6,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-11T18:08:18.908280",
+  "latest_price": 2112.0,
+  "final_signal": "BUY",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 0,
+    "sell_signals": 3,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-10",
-      "open": 2006.0,
-      "high": 2046.5,
-      "low": 2000.300048828125,
-      "close": 2007.699951171875,
-      "volume": 328391
-    },
     {
       "time": "2025-11-11",
       "open": 2008.0,
@@ -1992,127 +1984,135 @@
       "low": 1960.800048828125,
       "close": 1991.5999755859375,
       "volume": 142509
+    },
+    {
+      "time": "2026-11-11",
+      "open": 2005.0,
+      "high": 2236.0,
+      "low": 2005.0,
+      "close": 2112.0,
+      "volume": 4651220
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 53.87,
+      "value": 64.77,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 68.29,
-      "signal": "NEUTRAL"
+      "value": 100.0,
+      "signal": "SELL"
     },
     "MACD": {
-      "value": 9.69,
+      "value": 18.64,
       "signal": "BUY"
     },
-    "MACD_Histogram": 6.12,
+    "MACD_Histogram": 12.06,
     "CCI": {
-      "value": 31.87,
-      "signal": "NEUTRAL"
+      "value": 186.51,
+      "signal": "SELL"
     },
     "Williams_R": {
-      "value": -48.01,
+      "value": -28.84,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 4.4,
+      "value": 14.08,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 147.0,
+      "value": 113.4,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 50.36,
-      "signal": "NEUTRAL"
+      "value": 80.59,
+      "signal": "SELL"
     },
     "Ultimate_Oscillator": {
-      "value": 51.12,
+      "value": 50.7,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 12.88,
-      "signal": "WEAK"
+      "value": 53.52,
+      "signal": "STRONG"
     },
     "SuperTrend": {
       "signal": "BUY"
     },
     "Ichimoku": {
-      "signal": "SELL"
+      "signal": "BUY"
     },
     "Parabolic_SAR": {
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 12.0,
-      "down": 48.0,
+      "up": 4.0,
+      "down": 52.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 1983.59,
+      "value": 1995.82,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 1965.85,
+      "value": 1971.58,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 1922.11,
+      "value": 1925.95,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 1882.7,
+      "value": 1885.86,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 1966.21,
+      "value": 1974.28,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 1997.0,
-      "signal": "SELL"
+      "value": 2000.83,
+      "signal": "BUY"
     },
     "SMA200": {
-      "value": 1808.99,
+      "value": 1810.6,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 2092.3,
-      "middle": 1966.21,
-      "lower": 1840.12,
+      "upper": 2115.13,
+      "middle": 1974.28,
+      "lower": 1833.44,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 2144.3,
-      "middle": 1983.59,
-      "lower": 1822.88
+      "upper": 2174.44,
+      "middle": 1995.82,
+      "lower": 1817.2
     },
     "DonchianChannel": {
-      "upper": 2163.0,
+      "upper": 2236.0,
       "lower": 1806.0
     },
     "ATR": {
-      "value": 87.24
+      "value": 96.25
     },
     "StandardDeviation": {
-      "value": 63.04
+      "value": 70.42
     },
     "OBV": {
-      "value": 13766722,
+      "value": 18089551,
       "signal": "BUY"
     },
     "CMF": {
-      "value": 0.1652,
+      "value": 0.0366,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 1828.57,
+      "value": 1844.26,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": -89213.8905
+      "value": 178977.8025
     }
   }
 }
