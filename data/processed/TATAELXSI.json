@@ -1,22 +1,14 @@
 {
   "symbol": "TATAELXSI",
-  "updated_at": "2026-11-12T18:38:13.885984",
-  "latest_price": 3865.0,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-13T18:10:12.892815",
+  "latest_price": 3835.0,
+  "final_signal": "BUY",
   "signal_summary": {
-    "buy_signals": 5,
+    "buy_signals": 3,
     "sell_signals": 1,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-12",
-      "open": 5283.5,
-      "high": 5480.0,
-      "low": 5269.0,
-      "close": 5388.0,
-      "volume": 208841
-    },
     {
       "time": "2025-11-13",
       "open": 5408.5,
@@ -1984,48 +1976,64 @@
       "low": 3854.300048828125,
       "close": 3865.0,
       "volume": 165829
+    },
+    {
+      "time": "2026-11-12",
+      "open": 3865.0,
+      "high": 3901.10009765625,
+      "low": 3823.300048828125,
+      "close": 3862.0,
+      "volume": 137078
+    },
+    {
+      "time": "2026-11-13",
+      "open": 3863.0,
+      "high": 3895.0,
+      "low": 3819.300048828125,
+      "close": 3835.0,
+      "volume": 135384
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 51.23,
+      "value": 62.26,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 2.61,
-      "signal": "BUY"
+      "value": 36.59,
+      "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": 114.59,
-      "signal": "BUY"
-    },
-    "MACD_Histogram": 4.82,
-    "CCI": {
-      "value": 104.48,
+      "value": 105.47,
       "signal": "SELL"
     },
+    "MACD_Histogram": -3.69,
+    "CCI": {
+      "value": 60.24,
+      "signal": "NEUTRAL"
+    },
     "Williams_R": {
-      "value": -31.66,
+      "value": -40.89,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 4.46,
+      "value": 3.0,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 141.6,
+      "value": 31.0,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 55.12,
+      "value": 49.3,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 46.16,
+      "value": 51.1,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 6.99,
+      "value": 18.96,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2038,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 12.0,
-      "down": 92.0,
+      "up": 20.0,
+      "down": 100.0,
       "signal": "SELL"
     },
     "EMA20": {
-      "value": 3723.06,
+      "value": 3745.7,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 3617.33,
+      "value": 3635.09,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 3706.49,
+      "value": 3711.49,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 4021.86,
+      "value": 4011.69,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 3768.36,
+      "value": 3800.72,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 3499.58,
+      "value": 3508.25,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 4058.27,
+      "value": 4042.01,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 3983.08,
-      "middle": 3768.36,
-      "lower": 3553.64,
+      "upper": 3931.06,
+      "middle": 3800.72,
+      "lower": 3670.38,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 3977.68,
-      "middle": 3723.06,
-      "lower": 3468.44
+      "upper": 3968.95,
+      "middle": 3745.7,
+      "lower": 3522.45
     },
     "DonchianChannel": {
       "upper": 3967.9,
-      "lower": 3245.1
+      "lower": 3633.9
     },
     "ATR": {
-      "value": 116.25
+      "value": 105.26
     },
     "StandardDeviation": {
-      "value": 107.36
+      "value": 65.17
     },
     "OBV": {
-      "value": 865953,
+      "value": 529828,
       "signal": "SELL"
     },
     "CMF": {
-      "value": 0.303,
+      "value": 0.1944,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 4293.95,
+      "value": 4290.08,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 46740.9094
+      "value": 46888.6053
     }
   }
 }

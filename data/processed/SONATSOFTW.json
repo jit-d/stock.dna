@@ -1,22 +1,14 @@
 {
   "symbol": "SONATSOFTW",
-  "updated_at": "2026-11-12T18:38:11.633488",
-  "latest_price": 254.0,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-11-13T18:10:09.684985",
+  "latest_price": 248.81,
+  "final_signal": "BUY",
   "signal_summary": {
     "buy_signals": 3,
-    "sell_signals": 3,
+    "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-12",
-      "open": 373.79998779296875,
-      "high": 396.5,
-      "low": 372.0,
-      "close": 392.79998779296875,
-      "volume": 2801504
-    },
     {
       "time": "2025-11-13",
       "open": 393.04998779296875,
@@ -1984,49 +1976,65 @@
       "low": 253.3000030517578,
       "close": 254.0,
       "volume": 931215
+    },
+    {
+      "time": "2026-11-12",
+      "open": 254.0,
+      "high": 260.0,
+      "low": 251.3300018310547,
+      "close": 257.1300048828125,
+      "volume": 636395
+    },
+    {
+      "time": "2026-11-13",
+      "open": 256.0,
+      "high": 256.0400085449219,
+      "low": 248.1300048828125,
+      "close": 248.80999755859375,
+      "volume": 490844
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 61.07,
+      "value": 63.0,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 93.05,
+      "value": 98.11,
       "signal": "SELL"
     },
     "MACD": {
-      "value": -4.06,
+      "value": -1.72,
       "signal": "BUY"
     },
-    "MACD_Histogram": 4.16,
+    "MACD_Histogram": 4.27,
     "CCI": {
-      "value": 152.09,
-      "signal": "SELL"
+      "value": 91.57,
+      "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -25.21,
+      "value": -37.67,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 9.41,
+      "value": 7.5,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 22.55,
+      "value": 18.86,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 56.49,
+      "value": 61.96,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 48.52,
+      "value": 49.28,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 21.54,
-      "signal": "WEAK"
+      "value": 31.9,
+      "signal": "STRONG"
     },
     "SuperTrend": {
       "signal": "BUY"
@@ -2038,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 4.0,
-      "down": 32.0,
+      "up": 12.0,
+      "down": 40.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 241.39,
+      "value": 243.45,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 255.45,
+      "value": 255.26,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 268.68,
+      "value": 268.04,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 286.48,
+      "value": 285.53,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 238.01,
+      "value": 238.44,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 257.82,
+      "value": 256.01,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 274.84,
+      "value": 274.17,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 256.91,
-      "middle": 238.01,
-      "lower": 219.12,
+      "upper": 258.62,
+      "middle": 238.44,
+      "lower": 218.27,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 263.85,
-      "middle": 241.39,
-      "lower": 218.93
+      "upper": 265.54,
+      "middle": 243.45,
+      "lower": 221.37
     },
     "DonchianChannel": {
       "upper": 264.5,
       "lower": 222.85
     },
     "ATR": {
-      "value": 10.77
+      "value": 10.26
     },
     "StandardDeviation": {
-      "value": 9.45
+      "value": 10.09
     },
     "OBV": {
-      "value": 162771745,
+      "value": 162106508,
       "signal": "SELL"
     },
     "CMF": {
-      "value": -0.2769,
+      "value": -0.2953,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 292.29,
+      "value": 291.58,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 633.7487
+      "value": 234.783
     }
   }
 }

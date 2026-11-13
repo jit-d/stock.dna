@@ -1,22 +1,14 @@
 {
   "symbol": "JKCEMENT",
-  "updated_at": "2026-11-12T18:37:51.550631",
-  "latest_price": 5273.8,
-  "final_signal": "SELL",
+  "updated_at": "2026-11-13T18:09:41.030152",
+  "latest_price": 5155.1,
+  "final_signal": "STRONG_BUY",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 5,
+    "sell_signals": 1,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-12",
-      "open": 5582.0,
-      "high": 5683.0,
-      "low": 5477.0,
-      "close": 5500.5,
-      "volume": 153415
-    },
     {
       "time": "2025-11-13",
       "open": 5526.5,
@@ -1984,48 +1976,64 @@
       "low": 5082.10009765625,
       "close": 5273.7998046875,
       "volume": 85310
+    },
+    {
+      "time": "2026-11-12",
+      "open": 5250.0,
+      "high": 5352.2001953125,
+      "low": 5200.5,
+      "close": 5258.0,
+      "volume": 72990
+    },
+    {
+      "time": "2026-11-13",
+      "open": 5248.0,
+      "high": 5260.0,
+      "low": 5125.0,
+      "close": 5155.10009765625,
+      "volume": 19962
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 60.82,
+      "value": 60.55,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 84.47,
-      "signal": "SELL"
+      "value": 77.54,
+      "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": 51.93,
+      "value": 62.55,
       "signal": "BUY"
     },
-    "MACD_Histogram": 41.7,
+    "MACD_Histogram": 33.43,
     "CCI": {
-      "value": 150.85,
-      "signal": "SELL"
+      "value": 88.86,
+      "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -2.84,
-      "signal": "SELL"
+      "value": -31.18,
+      "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 8.65,
+      "value": 5.26,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 376.3,
+      "value": 262.1,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 82.65,
+      "value": 85.75,
       "signal": "SELL"
     },
     "Ultimate_Oscillator": {
-      "value": 62.47,
+      "value": 53.36,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 0.31,
+      "value": 11.56,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2038,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 4.0,
-      "down": 80.0,
+      "up": 8.0,
+      "down": 88.0,
       "signal": "SELL"
     },
     "EMA20": {
-      "value": 5030.52,
+      "value": 5061.99,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 5046.02,
+      "value": 5058.29,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 5140.36,
+      "value": 5143.82,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 5261.07,
-      "signal": "BUY"
+      "value": 5270.53,
+      "signal": "SELL"
     },
     "SMA20": {
-      "value": 4976.62,
+      "value": 5008.12,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 4986.06,
+      "value": 4988.29,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 5317.93,
+      "value": 5311.61,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 5252.29,
-      "middle": 4976.62,
-      "lower": 4700.95,
-      "signal": "SELL"
+      "upper": 5310.32,
+      "middle": 5008.12,
+      "lower": 4705.93,
+      "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 5354.71,
-      "middle": 5030.52,
-      "lower": 4706.33
+      "upper": 5376.0,
+      "middle": 5061.99,
+      "lower": 4747.98
     },
     "DonchianChannel": {
-      "upper": 5290.0,
-      "lower": 4693.0
+      "upper": 5352.2,
+      "lower": 4720.0
     },
     "ATR": {
-      "value": 165.81
+      "value": 166.29
     },
     "StandardDeviation": {
-      "value": 137.83
+      "value": 151.1
     },
     "OBV": {
-      "value": -943247,
-      "signal": "BUY"
+      "value": -1189614,
+      "signal": "SELL"
     },
     "CMF": {
-      "value": 0.2842,
+      "value": 0.2214,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 5440.09,
+      "value": 5438.25,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -3251802.8536
+      "value": 507502.1225
     }
   }
 }

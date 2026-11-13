@@ -1,22 +1,14 @@
 {
   "symbol": "EMAMILTD",
-  "updated_at": "2026-11-12T18:37:39.644706",
-  "latest_price": 410.95,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-11-13T18:09:23.484835",
+  "latest_price": 408.1,
+  "final_signal": "SELL",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 4,
+    "sell_signals": 5,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-12",
-      "open": 527.5499877929688,
-      "high": 529.5,
-      "low": 522.0,
-      "close": 526.25,
-      "volume": 214932
-    },
     {
       "time": "2025-11-13",
       "open": 528.0,
@@ -1984,48 +1976,64 @@
       "low": 404.3999938964844,
       "close": 410.95001220703125,
       "volume": 763239
+    },
+    {
+      "time": "2026-11-12",
+      "open": 412.0,
+      "high": 415.6499938964844,
+      "low": 409.0,
+      "close": 412.6499938964844,
+      "volume": 374910
+    },
+    {
+      "time": "2026-11-13",
+      "open": 406.75,
+      "high": 411.8500061035156,
+      "low": 400.04998779296875,
+      "close": 408.1000061035156,
+      "volume": 508104
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 69.89,
-      "signal": "NEUTRAL"
+      "value": 70.12,
+      "signal": "SELL"
     },
     "StochasticRSI": {
-      "value": 98.3,
+      "value": 99.01,
       "signal": "SELL"
     },
     "MACD": {
-      "value": 5.53,
+      "value": 7.98,
       "signal": "BUY"
     },
-    "MACD_Histogram": 4.61,
+    "MACD_Histogram": 4.65,
     "CCI": {
-      "value": 265.4,
+      "value": 142.83,
       "signal": "SELL"
     },
     "Williams_R": {
-      "value": -8.25,
+      "value": -13.1,
       "signal": "SELL"
     },
     "ROC": {
-      "value": 10.13,
+      "value": 10.63,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 42.05,
+      "value": 37.2,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 75.63,
-      "signal": "NEUTRAL"
+      "value": 85.69,
+      "signal": "SELL"
     },
     "Ultimate_Oscillator": {
-      "value": 67.46,
+      "value": 64.17,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 44.69,
+      "value": 42.0,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2038,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 8.0,
-      "down": 32.0,
+      "up": 16.0,
+      "down": 40.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 382.89,
+      "value": 387.86,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 382.57,
+      "value": 384.71,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 392.67,
+      "value": 393.33,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 417.33,
+      "value": 416.86,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 378.75,
+      "value": 382.2,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 376.43,
+      "value": 377.98,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 417.08,
+      "value": 416.19,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 403.56,
-      "middle": 378.75,
-      "lower": 353.94,
-      "signal": "SELL"
+      "upper": 413.26,
+      "middle": 382.2,
+      "lower": 351.14,
+      "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 407.12,
-      "middle": 382.89,
-      "lower": 358.67
+      "upper": 411.36,
+      "middle": 387.86,
+      "lower": 364.36
     },
     "DonchianChannel": {
       "upper": 415.8,
       "lower": 357.0
     },
     "ATR": {
-      "value": 12.97
+      "value": 12.42
     },
     "StandardDeviation": {
-      "value": 12.4
+      "value": 15.53
     },
     "OBV": {
-      "value": 21741779,
-      "signal": "BUY"
+      "value": 21883715,
+      "signal": "SELL"
     },
     "CMF": {
-      "value": 0.3245,
+      "value": 0.3005,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 420.91,
+      "value": 420.75,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 4437.5278
+      "value": 4367.914
     }
   }
 }

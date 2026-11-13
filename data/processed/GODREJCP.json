@@ -1,22 +1,14 @@
 {
   "symbol": "GODREJCP",
-  "updated_at": "2026-11-12T18:37:43.193281",
-  "latest_price": 878.3,
-  "final_signal": "BUY",
+  "updated_at": "2026-11-13T18:09:28.977219",
+  "latest_price": 870.75,
+  "final_signal": "NEUTRAL",
   "signal_summary": {
-    "buy_signals": 4,
+    "buy_signals": 3,
     "sell_signals": 3,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-12",
-      "open": 1144.0,
-      "high": 1144.4000244140625,
-      "low": 1126.4000244140625,
-      "close": 1135.9000244140625,
-      "volume": 901827
-    },
     {
       "time": "2025-11-13",
       "open": 1135.0,
@@ -1984,48 +1976,64 @@
       "low": 854.9000244140625,
       "close": 878.2999877929688,
       "volume": 1129113
+    },
+    {
+      "time": "2026-11-12",
+      "open": 878.4000244140625,
+      "high": 884.2000122070312,
+      "low": 870.1500244140625,
+      "close": 876.5,
+      "volume": 401793
+    },
+    {
+      "time": "2026-11-13",
+      "open": 875.0,
+      "high": 878.0,
+      "low": 863.5,
+      "close": 870.75,
+      "volume": 871290
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 56.11,
+      "value": 54.49,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 97.3,
+      "value": 93.81,
       "signal": "SELL"
     },
     "MACD": {
-      "value": -3.76,
+      "value": 0.07,
       "signal": "BUY"
     },
-    "MACD_Histogram": 5.43,
+    "MACD_Histogram": 6.15,
     "CCI": {
-      "value": 110.96,
-      "signal": "SELL"
+      "value": 99.06,
+      "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -12.84,
+      "value": -19.35,
       "signal": "SELL"
     },
     "ROC": {
-      "value": 2.56,
+      "value": 5.06,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 49.5,
+      "value": 33.75,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 37.47,
+      "value": 36.44,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 64.57,
+      "value": 61.73,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 11.66,
+      "value": 11.48,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2038,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 16.0,
-      "down": 32.0,
+      "up": 24.0,
+      "down": 40.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 850.68,
+      "value": 854.82,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 875.49,
-      "signal": "BUY"
+      "value": 875.34,
+      "signal": "SELL"
     },
     "EMA100": {
-      "value": 924.03,
+      "value": 922.03,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 988.42,
+      "value": 985.93,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 848.46,
+      "value": 848.82,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 861.87,
+      "value": 860.49,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 1018.99,
+      "value": 1015.4,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 883.9,
-      "middle": 848.46,
-      "lower": 813.01,
+      "upper": 885.23,
+      "middle": 848.82,
+      "lower": 812.41,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 900.11,
-      "middle": 850.68,
-      "lower": 801.25
+      "upper": 903.01,
+      "middle": 854.82,
+      "lower": 806.63
     },
     "DonchianChannel": {
       "upper": 893.2,
       "lower": 777.2
     },
     "ATR": {
-      "value": 27.26
+      "value": 26.01
     },
     "StandardDeviation": {
-      "value": 17.72
+      "value": 18.21
     },
     "OBV": {
-      "value": -50388748,
-      "signal": "BUY"
+      "value": -48863516,
+      "signal": "SELL"
     },
     "CMF": {
-      "value": 0.5321,
+      "value": 0.4749,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 1026.97,
+      "value": 1026.14,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 2683.7518
+      "value": 5003.6169
     }
   }
 }

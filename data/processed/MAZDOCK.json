@@ -1,22 +1,14 @@
 {
   "symbol": "MAZDOCK",
-  "updated_at": "2026-11-12T18:37:57.667175",
+  "updated_at": "2026-11-13T18:09:49.962827",
   "latest_price": 1890.0,
   "final_signal": "SELL",
   "signal_summary": {
     "buy_signals": 2,
-    "sell_signals": 3,
+    "sell_signals": 4,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-12",
-      "open": 2762.0,
-      "high": 2794.89990234375,
-      "low": 2733.60009765625,
-      "close": 2757.699951171875,
-      "volume": 920970
-    },
     {
       "time": "2025-11-13",
       "open": 2745.0,
@@ -1984,11 +1976,27 @@
       "low": 1878.0999755859375,
       "close": 1890.0,
       "volume": 769862
+    },
+    {
+      "time": "2026-11-12",
+      "open": 1893.0,
+      "high": 1927.300048828125,
+      "low": 1885.699951171875,
+      "close": 1907.0,
+      "volume": 504419
+    },
+    {
+      "time": "2026-11-13",
+      "open": 1905.0,
+      "high": 1919.0,
+      "low": 1876.0,
+      "close": 1890.0,
+      "volume": 618356
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 40.52,
+      "value": 53.24,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
@@ -1996,37 +2004,37 @@
       "signal": "SELL"
     },
     "MACD": {
-      "value": -79.43,
+      "value": -61.68,
       "signal": "BUY"
     },
-    "MACD_Histogram": 21.38,
+    "MACD_Histogram": 26.24,
     "CCI": {
-      "value": 0.86,
+      "value": 14.44,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -21.36,
-      "signal": "NEUTRAL"
+      "value": -18.38,
+      "signal": "SELL"
     },
     "ROC": {
-      "value": 1.61,
+      "value": 7.75,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 136.0,
+      "value": 127.3,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 39.27,
+      "value": 45.54,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 55.94,
+      "value": 57.09,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 32.22,
-      "signal": "STRONG"
+      "value": 10.36,
+      "signal": "WEAK"
     },
     "SuperTrend": {
       "signal": "BUY"
@@ -2038,73 +2046,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 76.0,
-      "down": 44.0,
+      "up": 84.0,
+      "down": 52.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 1894.08,
+      "value": 1894.81,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 2059.67,
+      "value": 2047.26,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 2206.18,
+      "value": 2193.96,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 2339.55,
+      "value": 2329.0,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 1894.99,
-      "signal": "SELL"
+      "value": 1872.62,
+      "signal": "BUY"
     },
     "SMA50": {
-      "value": 2111.1,
+      "value": 2086.34,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 2361.42,
+      "value": 2356.56,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 2167.56,
-      "middle": 1894.99,
-      "lower": 1622.42,
+      "upper": 2099.95,
+      "middle": 1872.62,
+      "lower": 1645.29,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 2039.47,
-      "middle": 1894.08,
-      "lower": 1748.69
+      "upper": 2033.34,
+      "middle": 1894.81,
+      "lower": 1756.28
     },
     "DonchianChannel": {
-      "upper": 2145.0,
+      "upper": 2131.8,
       "lower": 1687.5
     },
     "ATR": {
-      "value": 80.14
+      "value": 71.19
     },
     "StandardDeviation": {
-      "value": 136.29
+      "value": 113.66
     },
     "OBV": {
-      "value": 45420731,
-      "signal": "BUY"
+      "value": 45600184,
+      "signal": "SELL"
     },
     "CMF": {
-      "value": -0.0449,
+      "value": -0.0906,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 2413.8,
+      "value": 2410.8,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -51325.1026
+      "value": 2072.4951
     }
   }
 }
