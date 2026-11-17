@@ -1,22 +1,14 @@
 {
   "symbol": "FLUOROCHEM",
-  "updated_at": "2026-11-16T20:42:06.400055",
-  "latest_price": 4712.1,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-11-17T19:26:51.841417",
+  "latest_price": 4824.1,
+  "final_signal": "SELL",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 4,
+    "sell_signals": 5,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-17",
-      "open": 3556.0,
-      "high": 3609.89990234375,
-      "low": 3544.699951171875,
-      "close": 3593.199951171875,
-      "volume": 40344
-    },
     {
       "time": "2025-11-18",
       "open": 3593.199951171875,
@@ -1976,48 +1968,56 @@
       "low": 4703.0,
       "close": 4712.10009765625,
       "volume": 44421
+    },
+    {
+      "time": "2026-11-16",
+      "open": 4716.0,
+      "high": 4860.0,
+      "low": 4587.39990234375,
+      "close": 4824.10009765625,
+      "volume": 132528
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 71.39,
+      "value": 76.44,
       "signal": "SELL"
     },
     "StochasticRSI": {
-      "value": 94.43,
+      "value": 100.0,
       "signal": "SELL"
     },
     "MACD": {
-      "value": 73.1,
+      "value": 85.45,
       "signal": "BUY"
     },
-    "MACD_Histogram": 51.62,
+    "MACD_Histogram": 51.17,
     "CCI": {
-      "value": 109.7,
+      "value": 106.32,
       "signal": "SELL"
     },
     "Williams_R": {
-      "value": -24.15,
-      "signal": "NEUTRAL"
+      "value": -10.35,
+      "signal": "SELL"
     },
     "ROC": {
-      "value": 11.25,
+      "value": 13.05,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 431.9,
+      "value": 575.9,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 80.42,
+      "value": 85.3,
       "signal": "SELL"
     },
     "Ultimate_Oscillator": {
-      "value": 61.04,
+      "value": 63.25,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 68.86,
+      "value": 50.08,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2030,73 +2030,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 8.0,
-      "down": 60.0,
+      "up": 12.0,
+      "down": 64.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 4545.82,
+      "value": 4572.32,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 4491.68,
+      "value": 4504.71,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 4357.37,
+      "value": 4366.42,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 4112.71,
+      "value": 4117.59,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 4460.38,
+      "value": 4475.96,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 4518.87,
+      "value": 4520.55,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 3930.15,
+      "value": 3938.07,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 4861.39,
-      "middle": 4460.38,
-      "lower": 4059.36,
+      "upper": 4906.95,
+      "middle": 4475.96,
+      "lower": 4044.96,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 4878.08,
-      "middle": 4545.82,
-      "lower": 4213.56
+      "upper": 4915.49,
+      "middle": 4572.32,
+      "lower": 4229.15
     },
     "DonchianChannel": {
       "upper": 4899.0,
       "lower": 4086.7
     },
     "ATR": {
-      "value": 164.49
+      "value": 173.96
     },
     "StandardDeviation": {
-      "value": 200.51
+      "value": 215.5
     },
     "OBV": {
-      "value": 3779258,
-      "signal": "SELL"
+      "value": 4032346,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": 0.1327,
+      "value": 0.2017,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 4019.95,
+      "value": 4023.98,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": 4094463.7074
+      "value": 3711702.3374
     }
   }
 }
