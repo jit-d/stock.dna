@@ -1,22 +1,14 @@
 {
   "symbol": "SOLARINDS",
-  "updated_at": "2026-11-17T19:27:16.527058",
-  "latest_price": 18820.0,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-11-18T19:09:13.955770",
+  "latest_price": 18764.0,
+  "final_signal": "SELL",
   "signal_summary": {
-    "buy_signals": 2,
-    "sell_signals": 2,
+    "buy_signals": 1,
+    "sell_signals": 3,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-18",
-      "open": 13910.0,
-      "high": 13970.0,
-      "low": 13651.0,
-      "close": 13770.0,
-      "volume": 90160
-    },
     {
       "time": "2025-11-19",
       "open": 14000.0,
@@ -1968,48 +1960,56 @@
       "low": 18780.0,
       "close": 18820.0,
       "volume": 71016
+    },
+    {
+      "time": "2026-11-17",
+      "open": 18820.0,
+      "high": 19085.0,
+      "low": 18714.0,
+      "close": 18764.0,
+      "volume": 95342
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 51.41,
+      "value": 44.17,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 61.98,
+      "value": 31.44,
       "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": -172.32,
-      "signal": "BUY"
+      "value": -186.56,
+      "signal": "SELL"
     },
-    "MACD_Histogram": 13.88,
+    "MACD_Histogram": -0.29,
     "CCI": {
-      "value": -33.75,
+      "value": -51.01,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -65.0,
+      "value": -66.77,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -2.18,
+      "value": -3.43,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": 20.0,
-      "signal": "BUY"
+      "value": -674.0,
+      "signal": "SELL"
     },
     "MFI": {
-      "value": 60.99,
+      "value": 56.28,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 49.85,
+      "value": 55.26,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 11.48,
+      "value": 1.35,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2022,73 +2022,73 @@
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 36.0,
-      "down": 24.0,
+      "up": 40.0,
+      "down": 28.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 19203.62,
+      "value": 19161.75,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 19379.92,
+      "value": 19355.77,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 18944.24,
+      "value": 18940.96,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 17712.78,
+      "value": 17726.6,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 19145.65,
+      "value": 19083.3,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 19767.92,
+      "value": 19731.2,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 17211.8,
+      "value": 17241.12,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 19988.41,
-      "middle": 19145.65,
-      "lower": 18302.89,
+      "upper": 19840.97,
+      "middle": 19083.3,
+      "lower": 18325.63,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 20524.22,
-      "middle": 19203.62,
-      "lower": 17883.02
+      "upper": 20481.95,
+      "middle": 19161.75,
+      "lower": 17841.55
     },
     "DonchianChannel": {
       "upper": 20880.0,
       "lower": 17711.0
     },
     "ATR": {
-      "value": 667.71
+      "value": 652.29
     },
     "StandardDeviation": {
-      "value": 421.38
+      "value": 378.84
     },
     "OBV": {
-      "value": 4023994,
+      "value": 3838492,
       "signal": "SELL"
     },
     "CMF": {
-      "value": -0.1211,
+      "value": -0.1356,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 16631.27,
+      "value": 16642.79,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": -1973185.3132
+      "value": -25182563.9843
     }
   }
 }

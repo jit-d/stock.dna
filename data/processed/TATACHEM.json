@@ -1,22 +1,14 @@
 {
   "symbol": "TATACHEM",
-  "updated_at": "2026-11-17T19:27:18.172383",
-  "latest_price": 612.1,
-  "final_signal": "BUY",
+  "updated_at": "2026-11-18T19:09:16.635711",
+  "latest_price": 649.45,
+  "final_signal": "SELL",
   "signal_summary": {
-    "buy_signals": 3,
-    "sell_signals": 2,
+    "buy_signals": 4,
+    "sell_signals": 5,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-18",
-      "open": 836.0,
-      "high": 837.8499755859375,
-      "low": 824.7000122070312,
-      "close": 826.7000122070312,
-      "volume": 262160
-    },
     {
       "time": "2025-11-19",
       "open": 826.0,
@@ -1976,49 +1968,57 @@
       "low": 600.8499755859375,
       "close": 612.0999755859375,
       "volume": 1443462
+    },
+    {
+      "time": "2026-11-17",
+      "open": 656.0,
+      "high": 668.9000244140625,
+      "low": 634.0,
+      "close": 649.4500122070312,
+      "volume": 13265614
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 60.92,
-      "signal": "NEUTRAL"
+      "value": 72.92,
+      "signal": "SELL"
     },
     "StochasticRSI": {
-      "value": 80.49,
+      "value": 100.0,
       "signal": "SELL"
     },
     "MACD": {
-      "value": -4.94,
+      "value": -1.23,
       "signal": "BUY"
     },
-    "MACD_Histogram": 2.16,
+    "MACD_Histogram": 4.7,
     "CCI": {
-      "value": 33.56,
-      "signal": "NEUTRAL"
+      "value": 306.45,
+      "signal": "SELL"
     },
     "Williams_R": {
-      "value": -28.5,
+      "value": -22.78,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 1.69,
+      "value": 7.62,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 16.5,
+      "value": 39.45,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 52.89,
-      "signal": "NEUTRAL"
+      "value": 82.3,
+      "signal": "SELL"
     },
     "Ultimate_Oscillator": {
-      "value": 49.23,
+      "value": 53.17,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 7.3,
-      "signal": "WEAK"
+      "value": 41.73,
+      "signal": "STRONG"
     },
     "SuperTrend": {
       "signal": "BUY"
@@ -2030,73 +2030,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 76.0,
-      "down": 64.0,
+      "up": 4.0,
+      "down": 68.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 609.68,
+      "value": 613.46,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 625.06,
-      "signal": "SELL"
+      "value": 626.02,
+      "signal": "BUY"
     },
     "EMA100": {
-      "value": 648.77,
-      "signal": "SELL"
+      "value": 648.73,
+      "signal": "BUY"
     },
     "EMA200": {
-      "value": 683.26,
+      "value": 682.3,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 606.17,
+      "value": 606.99,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 627.41,
-      "signal": "SELL"
+      "value": 627.72,
+      "signal": "BUY"
     },
     "SMA200": {
-      "value": 683.65,
+      "value": 683.25,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 631.5,
-      "middle": 606.17,
-      "lower": 580.85,
-      "signal": "NEUTRAL"
+      "upper": 636.45,
+      "middle": 606.99,
+      "lower": 577.53,
+      "signal": "SELL"
     },
     "KeltnerChannel": {
-      "upper": 648.8,
-      "middle": 609.68,
-      "lower": 570.55
+      "upper": 656.99,
+      "middle": 613.46,
+      "lower": 569.94
     },
     "DonchianChannel": {
-      "upper": 647.05,
+      "upper": 668.9,
       "lower": 570.05
     },
     "ATR": {
-      "value": 15.68
+      "value": 18.38
     },
     "StandardDeviation": {
-      "value": 12.66
+      "value": 14.73
     },
     "OBV": {
-      "value": 37634873,
+      "value": 51157771,
       "signal": "BUY"
     },
     "CMF": {
-      "value": -0.2424,
+      "value": -0.2144,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 709.52,
+      "value": 706.99,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -669.2392
+      "value": 1560.4418
     }
   }
 }
