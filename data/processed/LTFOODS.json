@@ -1,22 +1,14 @@
 {
   "symbol": "LTFOODS",
-  "updated_at": "2026-11-18T19:08:54.601630",
-  "latest_price": 420.15,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-19T19:12:13.814503",
+  "latest_price": 419.25,
+  "final_signal": "BUY",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 0,
+    "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-19",
-      "open": 407.95001220703125,
-      "high": 421.0,
-      "low": 407.95001220703125,
-      "close": 414.6000061035156,
-      "volume": 703088
-    },
     {
       "time": "2025-11-20",
       "open": 416.3999938964844,
@@ -1976,48 +1968,56 @@
       "low": 414.75,
       "close": 420.1499938964844,
       "volume": 370362
+    },
+    {
+      "time": "2026-11-18",
+      "open": 416.5,
+      "high": 421.1000061035156,
+      "low": 416.5,
+      "close": 419.25,
+      "volume": 140373
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 68.15,
-      "signal": "NEUTRAL"
+      "value": 72.62,
+      "signal": "SELL"
     },
     "StochasticRSI": {
-      "value": 79.04,
-      "signal": "NEUTRAL"
+      "value": 88.45,
+      "signal": "SELL"
     },
     "MACD": {
-      "value": 4.58,
+      "value": 4.43,
       "signal": "BUY"
     },
-    "MACD_Histogram": 3.41,
+    "MACD_Histogram": 2.61,
     "CCI": {
-      "value": 63.57,
-      "signal": "NEUTRAL"
-    },
-    "Williams_R": {
-      "value": -24.59,
-      "signal": "NEUTRAL"
-    },
-    "ROC": {
-      "value": 10.25,
-      "signal": "BUY"
-    },
-    "Momentum": {
-      "value": 26.5,
-      "signal": "BUY"
-    },
-    "MFI": {
-      "value": 56.68,
-      "signal": "NEUTRAL"
-    },
-    "Ultimate_Oscillator": {
       "value": 55.99,
       "signal": "NEUTRAL"
     },
+    "Williams_R": {
+      "value": -30.03,
+      "signal": "NEUTRAL"
+    },
+    "ROC": {
+      "value": 10.47,
+      "signal": "BUY"
+    },
+    "Momentum": {
+      "value": 8.7,
+      "signal": "BUY"
+    },
+    "MFI": {
+      "value": 69.35,
+      "signal": "NEUTRAL"
+    },
+    "Ultimate_Oscillator": {
+      "value": 52.76,
+      "signal": "NEUTRAL"
+    },
     "ADX": {
-      "value": 26.42,
+      "value": 58.06,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2030,65 +2030,65 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 16.0,
-      "down": 56.0,
+      "up": 20.0,
+      "down": 60.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 413.17,
+      "value": 413.75,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 412.18,
+      "value": 412.46,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 410.41,
+      "value": 410.54,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 407.47,
+      "value": 407.05,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 404.33,
+      "value": 405.05,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 415.29,
+      "value": 414.83,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 404.16,
+      "value": 404.53,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 440.55,
-      "middle": 404.33,
-      "lower": 368.11,
+      "upper": 441.85,
+      "middle": 405.05,
+      "lower": 368.25,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 440.5,
-      "middle": 413.17,
-      "lower": 385.84
+      "upper": 439.57,
+      "middle": 413.75,
+      "lower": 387.92
     },
     "DonchianChannel": {
       "upper": 438.8,
       "lower": 362.95
     },
     "ATR": {
-      "value": 13.33
+      "value": 11.61
     },
     "StandardDeviation": {
-      "value": 18.11
+      "value": 18.4
     },
     "OBV": {
-      "value": 38123329,
+      "value": 37901402,
       "signal": "SELL"
     },
     "CMF": {
-      "value": 0.1513,
+      "value": 0.1878,
       "signal": "BUY"
     },
     "VWAP": {
@@ -2096,7 +2096,7 @@
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": 11381.6978
+      "value": 12838.4559
     }
   }
 }
