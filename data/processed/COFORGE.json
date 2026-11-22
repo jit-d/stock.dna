@@ -1,22 +1,14 @@
 {
   "symbol": "COFORGE",
-  "updated_at": "2026-11-21T17:47:20.571404",
-  "latest_price": 2041.0,
+  "updated_at": "2026-11-22T18:05:24.842439",
+  "latest_price": 2086.7,
   "final_signal": "BUY",
   "signal_summary": {
-    "buy_signals": 3,
-    "sell_signals": 1,
+    "buy_signals": 4,
+    "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-21",
-      "open": 1836.9000244140625,
-      "high": 1849.9000244140625,
-      "low": 1791.0999755859375,
-      "close": 1797.5,
-      "volume": 1342531
-    },
     {
       "time": "2025-11-24",
       "open": 1802.0,
@@ -1976,48 +1968,56 @@
       "low": 2011.199951171875,
       "close": 2041.0,
       "volume": 3451297
+    },
+    {
+      "time": "2026-11-20",
+      "open": 2036.0,
+      "high": 2177.800048828125,
+      "low": 2027.0,
+      "close": 2086.699951171875,
+      "volume": 9300662
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 61.48,
+      "value": 56.8,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 37.63,
-      "signal": "NEUTRAL"
+      "value": 17.94,
+      "signal": "BUY"
     },
     "MACD": {
-      "value": 36.2,
+      "value": 37.91,
       "signal": "SELL"
     },
-    "MACD_Histogram": -6.67,
+    "MACD_Histogram": -3.96,
     "CCI": {
-      "value": 27.48,
-      "signal": "NEUTRAL"
+      "value": 119.68,
+      "signal": "SELL"
     },
     "Williams_R": {
-      "value": -55.74,
+      "value": -45.39,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -2.76,
-      "signal": "SELL"
+      "value": 1.26,
+      "signal": "BUY"
     },
     "Momentum": {
-      "value": -19.0,
-      "signal": "SELL"
+      "value": 7.7,
+      "signal": "BUY"
     },
     "MFI": {
-      "value": 53.65,
+      "value": 57.98,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 53.14,
+      "value": 51.36,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 11.0,
+      "value": 19.29,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2027,76 +2027,76 @@
       "signal": "BUY"
     },
     "Parabolic_SAR": {
-      "signal": "SELL"
+      "signal": "BUY"
     },
     "Aroon": {
-      "up": 36.0,
-      "down": 72.0,
-      "signal": "NEUTRAL"
+      "up": 4.0,
+      "down": 76.0,
+      "signal": "SELL"
     },
     "EMA20": {
-      "value": 2011.69,
+      "value": 2018.83,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 1933.24,
+      "value": 1939.26,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 1821.61,
+      "value": 1826.94,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 1719.58,
+      "value": 1724.15,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 2020.53,
+      "value": 2029.42,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 1914.15,
+      "value": 1917.19,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 1563.94,
+      "value": 1565.9,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 2124.64,
-      "middle": 2020.53,
-      "lower": 1916.41,
+      "upper": 2123.78,
+      "middle": 2029.42,
+      "lower": 1935.06,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 2156.96,
-      "middle": 2011.69,
-      "lower": 1866.42
+      "upper": 2170.55,
+      "middle": 2018.83,
+      "lower": 1867.11
     },
     "DonchianChannel": {
-      "upper": 2127.9,
+      "upper": 2177.8,
       "lower": 1812.2
     },
     "ATR": {
-      "value": 63.58
+      "value": 67.22
     },
     "StandardDeviation": {
-      "value": 52.06
+      "value": 47.18
     },
     "OBV": {
-      "value": 44404833,
-      "signal": "SELL"
+      "value": 52362964,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": 0.1693,
+      "value": 0.1677,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 1541.4,
+      "value": 1547.75,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": -8719.9758
+      "value": -6731.3351
     }
   }
 }

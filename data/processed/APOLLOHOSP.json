@@ -1,22 +1,14 @@
 {
   "symbol": "APOLLOHOSP",
-  "updated_at": "2026-11-21T17:47:08.406789",
-  "latest_price": 8738.0,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-22T18:05:12.914692",
+  "latest_price": 9200.0,
+  "final_signal": "NEUTRAL",
   "signal_summary": {
     "buy_signals": 4,
-    "sell_signals": 0,
+    "sell_signals": 4,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-21",
-      "open": 7425.5,
-      "high": 7435.0,
-      "low": 7381.5,
-      "close": 7391.0,
-      "volume": 138622
-    },
     {
       "time": "2025-11-24",
       "open": 7399.0,
@@ -1976,48 +1968,56 @@
       "low": 8690.0,
       "close": 8738.0,
       "volume": 317366
+    },
+    {
+      "time": "2026-11-20",
+      "open": 8820.0,
+      "high": 9282.5,
+      "low": 8800.0,
+      "close": 9200.0,
+      "volume": 1412562
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 68.01,
-      "signal": "NEUTRAL"
+      "value": 72.01,
+      "signal": "SELL"
     },
     "StochasticRSI": {
-      "value": 29.9,
+      "value": 44.77,
       "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": 148.87,
+      "value": 187.59,
       "signal": "BUY"
     },
-    "MACD_Histogram": 56.53,
+    "MACD_Histogram": 76.19,
     "CCI": {
-      "value": 91.71,
-      "signal": "NEUTRAL"
+      "value": 170.4,
+      "signal": "SELL"
     },
     "Williams_R": {
-      "value": -22.21,
-      "signal": "NEUTRAL"
+      "value": -8.01,
+      "signal": "SELL"
     },
     "ROC": {
-      "value": 3.3,
+      "value": 9.0,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 138.5,
+      "value": 829.0,
       "signal": "BUY"
     },
     "MFI": {
-      "value": 61.49,
+      "value": 66.65,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 61.09,
+      "value": 64.57,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 61.98,
+      "value": 69.63,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2030,73 +2030,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 8.0,
-      "down": 80.0,
+      "up": 4.0,
+      "down": 84.0,
       "signal": "SELL"
     },
     "EMA20": {
-      "value": 8467.09,
+      "value": 8536.89,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 8414.21,
+      "value": 8445.02,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 8404.79,
+      "value": 8420.27,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 8220.96,
+      "value": 8227.59,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 8365.38,
+      "value": 8445.15,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 8384.06,
+      "value": 8392.86,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 8192.75,
+      "value": 8204.37,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 9074.78,
-      "middle": 8365.38,
-      "lower": 7655.97,
-      "signal": "NEUTRAL"
-    },
-    "KeltnerChannel": {
-      "upper": 8864.34,
-      "middle": 8467.09,
-      "lower": 8069.84
-    },
-    "DonchianChannel": {
-      "upper": 8898.5,
-      "lower": 7465.0
-    },
-    "ATR": {
-      "value": 188.5
-    },
-    "StandardDeviation": {
-      "value": 354.7
-    },
-    "OBV": {
-      "value": 1862942,
+      "upper": 9153.2,
+      "middle": 8445.15,
+      "lower": 7737.1,
       "signal": "SELL"
     },
+    "KeltnerChannel": {
+      "upper": 8970.29,
+      "middle": 8536.89,
+      "lower": 8103.49
+    },
+    "DonchianChannel": {
+      "upper": 9282.5,
+      "lower": 7550.0
+    },
+    "ATR": {
+      "value": 207.96
+    },
+    "StandardDeviation": {
+      "value": 354.03
+    },
+    "OBV": {
+      "value": 4640252,
+      "signal": "BUY"
+    },
     "CMF": {
-      "value": 0.3546,
+      "value": 0.3856,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 7965.96,
+      "value": 7981.81,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": 1596201.6306
+      "value": 1566793.3336
     }
   }
 }
