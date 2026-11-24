@@ -1,22 +1,14 @@
 {
   "symbol": "TATASTEEL",
-  "updated_at": "2026-11-23T22:17:02.239467",
-  "latest_price": 178.0,
-  "final_signal": "SELL",
+  "updated_at": "2026-11-24T20:55:35.305593",
+  "latest_price": 163.0,
+  "final_signal": "BUY",
   "signal_summary": {
-    "buy_signals": 1,
+    "buy_signals": 5,
     "sell_signals": 3,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-24",
-      "open": 168.0,
-      "high": 168.3800048828125,
-      "low": 165.17999267578125,
-      "close": 165.36000061035156,
-      "volume": 31202769
-    },
     {
       "time": "2025-11-25",
       "open": 166.0,
@@ -1976,49 +1968,57 @@
       "low": 173.8800048828125,
       "close": 178.0,
       "volume": 46172019
+    },
+    {
+      "time": "2026-11-23",
+      "open": 173.6999969482422,
+      "high": 173.8000030517578,
+      "low": 160.5,
+      "close": 163.0,
+      "volume": 168843913
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 62.57,
+      "value": 34.58,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 43.19,
-      "signal": "NEUTRAL"
-    },
-    "MACD": {
-      "value": 1.07,
-      "signal": "SELL"
-    },
-    "MACD_Histogram": -0.06,
-    "CCI": {
-      "value": -11.62,
-      "signal": "NEUTRAL"
-    },
-    "Williams_R": {
-      "value": -66.67,
-      "signal": "NEUTRAL"
-    },
-    "ROC": {
-      "value": 0.85,
+      "value": 0.0,
       "signal": "BUY"
     },
+    "MACD": {
+      "value": -0.44,
+      "signal": "SELL"
+    },
+    "MACD_Histogram": -1.25,
+    "CCI": {
+      "value": -131.82,
+      "signal": "BUY"
+    },
+    "Williams_R": {
+      "value": -92.54,
+      "signal": "BUY"
+    },
+    "ROC": {
+      "value": -9.41,
+      "signal": "SELL"
+    },
     "Momentum": {
-      "value": -4.0,
+      "value": -23.3,
       "signal": "SELL"
     },
     "MFI": {
-      "value": 68.54,
+      "value": 45.25,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 49.67,
+      "value": 39.81,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 31.38,
-      "signal": "STRONG"
+      "value": 21.43,
+      "signal": "WEAK"
     },
     "SuperTrend": {
       "signal": "BUY"
@@ -2030,73 +2030,73 @@
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 36.0,
-      "down": 80.0,
+      "up": 40.0,
+      "down": 4.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 180.09,
+      "value": 178.46,
       "signal": "SELL"
     },
     "EMA50": {
-      "value": 180.56,
+      "value": 179.87,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 183.85,
+      "value": 183.44,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 185.62,
+      "value": 185.48,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 178.4,
+      "value": 178.16,
       "signal": "SELL"
     },
     "SMA50": {
-      "value": 179.85,
+      "value": 179.43,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 193.52,
+      "value": 193.32,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 192.18,
-      "middle": 178.4,
-      "lower": 164.61,
-      "signal": "NEUTRAL"
+      "upper": 192.8,
+      "middle": 178.16,
+      "lower": 163.53,
+      "signal": "BUY"
     },
     "KeltnerChannel": {
-      "upper": 190.16,
-      "middle": 180.09,
-      "lower": 170.01
+      "upper": 189.39,
+      "middle": 178.46,
+      "lower": 167.53
     },
     "DonchianChannel": {
       "upper": 194.0,
-      "lower": 163.41
+      "lower": 160.5
     },
     "ATR": {
-      "value": 5.42
+      "value": 5.97
     },
     "StandardDeviation": {
-      "value": 6.89
+      "value": 7.32
     },
     "OBV": {
-      "value": 133215011,
+      "value": -66831671,
       "signal": "SELL"
     },
     "CMF": {
-      "value": 0.2146,
-      "signal": "BUY"
+      "value": -0.0045,
+      "signal": "SELL"
     },
     "VWAP": {
-      "value": 191.74,
+      "value": 191.23,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 12.7531
+      "value": -2.588
     }
   }
 }
