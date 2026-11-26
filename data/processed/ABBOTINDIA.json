@@ -1,22 +1,14 @@
 {
   "symbol": "ABBOTINDIA",
-  "updated_at": "2026-11-25T20:14:04.476112",
-  "latest_price": 26125.0,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-11-26T19:52:13.056023",
+  "latest_price": 26765.0,
+  "final_signal": "STRONG_BUY",
   "signal_summary": {
-    "buy_signals": 2,
-    "sell_signals": 2,
+    "buy_signals": 4,
+    "sell_signals": 0,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-26",
-      "open": 30250.0,
-      "high": 30250.0,
-      "low": 29950.0,
-      "close": 30025.0,
-      "volume": 3918
-    },
     {
       "time": "2025-11-27",
       "open": 30300.0,
@@ -1968,48 +1960,56 @@
       "low": 25990.0,
       "close": 26125.0,
       "volume": 7030
+    },
+    {
+      "time": "2026-11-25",
+      "open": 26265.0,
+      "high": 27000.0,
+      "low": 26120.0,
+      "close": 26765.0,
+      "volume": 6868
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 52.5,
+      "value": 57.19,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 50.22,
+      "value": 74.06,
       "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": -13.62,
-      "signal": "SELL"
+      "value": 40.79,
+      "signal": "BUY"
     },
-    "MACD_Histogram": -4.12,
+    "MACD_Histogram": 40.22,
     "CCI": {
-      "value": 21.01,
+      "value": 84.81,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -64.63,
+      "value": -33.41,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -3.67,
-      "signal": "SELL"
+      "value": 0.6,
+      "signal": "BUY"
     },
     "Momentum": {
-      "value": -220.0,
-      "signal": "SELL"
+      "value": 85.0,
+      "signal": "BUY"
     },
     "MFI": {
-      "value": 53.0,
+      "value": 49.23,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 42.61,
+      "value": 48.07,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 18.95,
+      "value": 17.99,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2022,73 +2022,73 @@
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 52.0,
-      "down": 84.0,
+      "up": 56.0,
+      "down": 88.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 26099.27,
+      "value": 26162.67,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 26203.56,
-      "signal": "SELL"
+      "value": 26225.55,
+      "signal": "BUY"
     },
     "EMA100": {
-      "value": 26408.48,
-      "signal": "SELL"
+      "value": 26411.18,
+      "signal": "BUY"
     },
     "EMA200": {
-      "value": 26858.91,
+      "value": 26807.49,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 26096.25,
+      "value": 26173.25,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 26166.5,
-      "signal": "SELL"
+      "value": 26197.3,
+      "signal": "BUY"
     },
     "SMA200": {
-      "value": 26545.75,
-      "signal": "SELL"
+      "value": 26541.75,
+      "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 27036.48,
-      "middle": 26096.25,
-      "lower": 25156.02,
+      "upper": 27066.53,
+      "middle": 26173.25,
+      "lower": 25279.97,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 27478.77,
-      "middle": 26099.27,
-      "lower": 24719.77
+      "upper": 27574.17,
+      "middle": 26162.67,
+      "lower": 24751.17
     },
     "DonchianChannel": {
       "upper": 27450.0,
-      "lower": 24805.0
+      "lower": 25215.0
     },
     "ATR": {
-      "value": 717.5
+      "value": 730.71
     },
     "StandardDeviation": {
-      "value": 470.12
+      "value": 446.64
     },
     "OBV": {
-      "value": -88374,
-      "signal": "SELL"
+      "value": -68568,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": -0.2163,
+      "value": -0.2065,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 26852.5,
+      "value": 26846.43,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 301429429.3443
+      "value": 480162620.2512
     }
   }
 }

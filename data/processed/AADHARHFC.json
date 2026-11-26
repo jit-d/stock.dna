@@ -1,22 +1,14 @@
 {
   "symbol": "AADHARHFC",
-  "updated_at": "2026-11-25T20:14:04.069427",
-  "latest_price": 415.2,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-11-26T19:52:12.695574",
+  "latest_price": 425.0,
+  "final_signal": "STRONG_SELL",
   "signal_summary": {
-    "buy_signals": 3,
-    "sell_signals": 3,
+    "buy_signals": 1,
+    "sell_signals": 4,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-26",
-      "open": 490.0,
-      "high": 491.04998779296875,
-      "low": 481.0,
-      "close": 486.8500061035156,
-      "volume": 441630
-    },
     {
       "time": "2025-11-27",
       "open": 490.0,
@@ -1968,48 +1960,56 @@
       "low": 409.0,
       "close": 415.20001220703125,
       "volume": 278198
+    },
+    {
+      "time": "2026-11-25",
+      "open": 415.20001220703125,
+      "high": 433.6000061035156,
+      "low": 414.0,
+      "close": 425.0,
+      "volume": 455921
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 45.2,
+      "value": 51.99,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 68.66,
-      "signal": "NEUTRAL"
-    },
-    "MACD": {
-      "value": -7.24,
+      "value": 100.0,
       "signal": "SELL"
     },
-    "MACD_Histogram": -1.03,
+    "MACD": {
+      "value": -6.7,
+      "signal": "SELL"
+    },
+    "MACD_Histogram": -0.4,
     "CCI": {
-      "value": -136.99,
-      "signal": "BUY"
+      "value": -46.12,
+      "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -84.42,
-      "signal": "BUY"
+      "value": -59.8,
+      "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": -3.71,
+      "value": -3.02,
       "signal": "SELL"
     },
     "Momentum": {
-      "value": -14.45,
+      "value": -8.35,
       "signal": "SELL"
     },
     "MFI": {
-      "value": 32.26,
+      "value": 39.23,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 43.99,
+      "value": 44.96,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 17.27,
+      "value": 3.23,
       "signal": "WEAK"
     },
     "SuperTrend": {
@@ -2022,73 +2022,73 @@
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 88.0,
-      "down": 4.0,
+      "up": 92.0,
+      "down": 8.0,
       "signal": "BUY"
     },
     "EMA20": {
-      "value": 429.3,
-      "signal": "SELL"
-    },
-    "EMA50": {
-      "value": 442.97,
-      "signal": "SELL"
-    },
-    "EMA100": {
-      "value": 457.59,
-      "signal": "SELL"
-    },
-    "EMA200": {
-      "value": 469.06,
-      "signal": "SELL"
-    },
-    "SMA20": {
       "value": 428.89,
       "signal": "SELL"
     },
+    "EMA50": {
+      "value": 442.26,
+      "signal": "SELL"
+    },
+    "EMA100": {
+      "value": 456.92,
+      "signal": "SELL"
+    },
+    "EMA200": {
+      "value": 468.3,
+      "signal": "SELL"
+    },
+    "SMA20": {
+      "value": 428.08,
+      "signal": "SELL"
+    },
     "SMA50": {
-      "value": 442.24,
+      "value": 441.31,
       "signal": "SELL"
     },
     "SMA200": {
-      "value": 473.97,
+      "value": 473.64,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 445.8,
-      "middle": 428.89,
-      "lower": 411.98,
+      "upper": 444.08,
+      "middle": 428.08,
+      "lower": 412.08,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 456.68,
-      "middle": 429.3,
-      "lower": 401.92
+      "upper": 456.82,
+      "middle": 428.89,
+      "lower": 400.96
     },
     "DonchianChannel": {
       "upper": 448.8,
       "lower": 409.0
     },
     "ATR": {
-      "value": 13.48
+      "value": 14.11
     },
     "StandardDeviation": {
-      "value": 8.45
+      "value": 8.0
     },
     "OBV": {
-      "value": 12982095,
-      "signal": "SELL"
+      "value": 13307202,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": 0.0208,
+      "value": 0.0213,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 479.43,
+      "value": 479.13,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": -283.9708
+      "value": 2373.3067
     }
   }
 }

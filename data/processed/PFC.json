@@ -1,22 +1,14 @@
 {
   "symbol": "PFC",
-  "updated_at": "2026-11-25T20:14:40.341157",
-  "latest_price": 324.25,
-  "final_signal": "NEUTRAL",
+  "updated_at": "2026-11-26T19:52:48.066580",
+  "latest_price": 333.8,
+  "final_signal": "BUY",
   "signal_summary": {
-    "buy_signals": 2,
+    "buy_signals": 3,
     "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-26",
-      "open": 359.0,
-      "high": 364.70001220703125,
-      "low": 357.54998779296875,
-      "close": 362.3999938964844,
-      "volume": 5145168
-    },
     {
       "time": "2025-11-27",
       "open": 362.3999938964844,
@@ -1968,127 +1960,135 @@
       "low": 324.1000061035156,
       "close": 324.25,
       "volume": 9085066
+    },
+    {
+      "time": "2026-11-25",
+      "open": 324.25,
+      "high": 337.0,
+      "low": 324.25,
+      "close": 333.79998779296875,
+      "volume": 9087390
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 54.29,
+      "value": 60.38,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 71.0,
-      "signal": "NEUTRAL"
+      "value": 86.14,
+      "signal": "SELL"
     },
     "MACD": {
-      "value": -0.59,
+      "value": -0.19,
       "signal": "BUY"
     },
-    "MACD_Histogram": 0.38,
+    "MACD_Histogram": 0.62,
     "CCI": {
-      "value": 9.7,
+      "value": 45.66,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -70.48,
+      "value": -41.72,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 0.54,
+      "value": 1.34,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": -4.55,
+      "value": -4.5,
       "signal": "SELL"
     },
     "MFI": {
-      "value": 59.82,
+      "value": 60.87,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 48.52,
+      "value": 54.89,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 23.64,
-      "signal": "WEAK"
+      "value": 25.36,
+      "signal": "STRONG"
     },
     "SuperTrend": {
       "signal": "BUY"
     },
     "Ichimoku": {
-      "signal": "SELL"
+      "signal": "BUY"
     },
     "Parabolic_SAR": {
       "signal": "SELL"
     },
     "Aroon": {
-      "up": 36.0,
-      "down": 80.0,
+      "up": 40.0,
+      "down": 84.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 329.38,
-      "signal": "SELL"
+      "value": 329.81,
+      "signal": "BUY"
     },
     "EMA50": {
-      "value": 337.35,
+      "value": 337.21,
       "signal": "SELL"
     },
     "EMA100": {
-      "value": 355.7,
+      "value": 355.29,
       "signal": "SELL"
     },
     "EMA200": {
-      "value": 371.86,
+      "value": 371.72,
       "signal": "SELL"
     },
     "SMA20": {
-      "value": 326.54,
-      "signal": "SELL"
+      "value": 327.31,
+      "signal": "BUY"
     },
     "SMA50": {
-      "value": 332.06,
-      "signal": "SELL"
+      "value": 331.7,
+      "signal": "BUY"
     },
     "SMA200": {
-      "value": 394.32,
+      "value": 394.09,
       "signal": "SELL"
     },
     "BollingerBands": {
-      "upper": 343.6,
-      "middle": 326.54,
-      "lower": 309.48,
+      "upper": 344.22,
+      "middle": 327.31,
+      "lower": 310.41,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 346.01,
-      "middle": 329.38,
-      "lower": 312.75
+      "upper": 346.68,
+      "middle": 329.81,
+      "lower": 312.93
     },
     "DonchianChannel": {
       "upper": 347.65,
-      "lower": 310.3
+      "lower": 310.7
     },
     "ATR": {
-      "value": 8.57
+      "value": 9.1
     },
     "StandardDeviation": {
-      "value": 8.53
+      "value": 8.45
     },
     "OBV": {
-      "value": 108768942,
-      "signal": "SELL"
+      "value": 112711164,
+      "signal": "BUY"
     },
     "CMF": {
-      "value": 0.1491,
+      "value": 0.1509,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 387.11,
+      "value": 386.92,
       "signal": "SELL"
     },
     "EaseOfMovement": {
-      "value": 104.0186
+      "value": 113.9369
     }
   }
 }
