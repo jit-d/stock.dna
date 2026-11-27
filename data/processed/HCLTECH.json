@@ -1,22 +1,14 @@
 {
   "symbol": "HCLTECH",
-  "updated_at": "2026-11-26T19:52:28.701840",
-  "latest_price": 1380.0,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-27T19:41:17.060969",
+  "latest_price": 1468.6,
+  "final_signal": "SELL",
   "signal_summary": {
-    "buy_signals": 4,
-    "sell_signals": 1,
+    "buy_signals": 3,
+    "sell_signals": 4,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-27",
-      "open": 1619.0999755859375,
-      "high": 1633.199951171875,
-      "low": 1614.0,
-      "close": 1629.0,
-      "volume": 2106176
-    },
     {
       "time": "2025-11-28",
       "open": 1629.0,
@@ -1968,49 +1960,57 @@
       "low": 1363.5999755859375,
       "close": 1380.0,
       "volume": 2171047
+    },
+    {
+      "time": "2026-11-26",
+      "open": 1386.0,
+      "high": 1468.5999755859375,
+      "low": 1386.0,
+      "close": 1468.5999755859375,
+      "volume": 4996290
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 37.51,
+      "value": 60.93,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 18.52,
-      "signal": "BUY"
-    },
-    "MACD": {
-      "value": 3.61,
+      "value": 80.76,
       "signal": "SELL"
     },
-    "MACD_Histogram": -9.16,
+    "MACD": {
+      "value": 11.08,
+      "signal": "SELL"
+    },
+    "MACD_Histogram": -1.35,
     "CCI": {
-      "value": -34.83,
+      "value": 97.82,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -55.76,
-      "signal": "NEUTRAL"
+      "value": -0.25,
+      "signal": "SELL"
     },
     "ROC": {
-      "value": -3.53,
-      "signal": "SELL"
+      "value": 1.99,
+      "signal": "BUY"
     },
     "Momentum": {
-      "value": -27.0,
-      "signal": "SELL"
+      "value": 73.6,
+      "signal": "BUY"
     },
     "MFI": {
-      "value": 47.72,
+      "value": 56.39,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 46.15,
+      "value": 58.74,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 26.61,
-      "signal": "STRONG"
+      "value": 13.84,
+      "signal": "WEAK"
     },
     "SuperTrend": {
       "signal": "BUY"
@@ -2022,73 +2022,73 @@
       "signal": "BUY"
     },
     "Aroon": {
-      "up": 48.0,
-      "down": 16.0,
+      "up": 52.0,
+      "down": 20.0,
       "signal": "NEUTRAL"
     },
     "EMA20": {
-      "value": 1372.33,
+      "value": 1381.5,
       "signal": "BUY"
     },
     "EMA50": {
-      "value": 1345.37,
+      "value": 1350.2,
       "signal": "BUY"
     },
     "EMA100": {
-      "value": 1322.09,
+      "value": 1324.96,
       "signal": "BUY"
     },
     "EMA200": {
-      "value": 1347.23,
+      "value": 1348.02,
       "signal": "BUY"
     },
     "SMA20": {
-      "value": 1393.42,
-      "signal": "SELL"
+      "value": 1395.85,
+      "signal": "BUY"
     },
     "SMA50": {
-      "value": 1324.38,
+      "value": 1329.62,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 1301.38,
+      "value": 1300.34,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 1458.28,
-      "middle": 1393.42,
-      "lower": 1328.57,
-      "signal": "NEUTRAL"
+      "upper": 1467.77,
+      "middle": 1395.85,
+      "lower": 1323.94,
+      "signal": "SELL"
     },
     "KeltnerChannel": {
-      "upper": 1445.77,
-      "middle": 1372.33,
-      "lower": 1298.89
+      "upper": 1460.9,
+      "middle": 1381.5,
+      "lower": 1302.1
     },
     "DonchianChannel": {
       "upper": 1469.0,
       "lower": 1309.4
     },
     "ATR": {
-      "value": 36.69
+      "value": 40.19
     },
     "StandardDeviation": {
-      "value": 32.43
+      "value": 35.96
     },
     "OBV": {
-      "value": 22145818,
+      "value": 28718510,
       "signal": "BUY"
     },
     "CMF": {
-      "value": -0.1157,
+      "value": -0.1074,
       "signal": "SELL"
     },
     "VWAP": {
-      "value": 1339.94,
+      "value": 1339.83,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": -6734.6945
+      "value": 1333.5421
     }
   }
 }

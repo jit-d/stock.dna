@@ -1,22 +1,14 @@
 {
   "symbol": "DIXON",
-  "updated_at": "2026-11-26T19:52:24.145569",
-  "latest_price": 12978.0,
-  "final_signal": "STRONG_BUY",
+  "updated_at": "2026-11-27T19:41:08.089281",
+  "latest_price": 12718.0,
+  "final_signal": "NEUTRAL",
   "signal_summary": {
-    "buy_signals": 4,
-    "sell_signals": 0,
+    "buy_signals": 2,
+    "sell_signals": 2,
     "total_indicators": 10
   },
   "candles": [
-    {
-      "time": "2025-11-27",
-      "open": 14860.0,
-      "high": 14890.0,
-      "low": 14535.0,
-      "close": 14643.0,
-      "volume": 151098
-    },
     {
       "time": "2025-11-28",
       "open": 14668.0,
@@ -1968,48 +1960,56 @@
       "low": 12791.0,
       "close": 12978.0,
       "volume": 499774
+    },
+    {
+      "time": "2026-11-26",
+      "open": 13135.0,
+      "high": 13198.0,
+      "low": 12627.0,
+      "close": 12718.0,
+      "volume": 413125
     }
   ],
   "indicators": {
     "RSI": {
-      "value": 62.22,
+      "value": 56.82,
       "signal": "NEUTRAL"
     },
     "StochasticRSI": {
-      "value": 52.35,
+      "value": 24.64,
       "signal": "NEUTRAL"
     },
     "MACD": {
-      "value": 178.57,
+      "value": 153.36,
       "signal": "BUY"
     },
-    "MACD_Histogram": 104.41,
+    "MACD_Histogram": 63.36,
     "CCI": {
-      "value": 82.13,
+      "value": 42.94,
       "signal": "NEUTRAL"
     },
     "Williams_R": {
-      "value": -42.47,
+      "value": -74.66,
       "signal": "NEUTRAL"
     },
     "ROC": {
-      "value": 2.87,
+      "value": 0.74,
       "signal": "BUY"
     },
     "Momentum": {
-      "value": 375.0,
-      "signal": "BUY"
+      "value": -178.0,
+      "signal": "SELL"
     },
     "MFI": {
-      "value": 60.87,
+      "value": 58.43,
       "signal": "NEUTRAL"
     },
     "Ultimate_Oscillator": {
-      "value": 52.74,
+      "value": 45.88,
       "signal": "NEUTRAL"
     },
     "ADX": {
-      "value": 42.38,
+      "value": 33.33,
       "signal": "STRONG"
     },
     "SuperTrend": {
@@ -2019,76 +2019,76 @@
       "signal": "BUY"
     },
     "Parabolic_SAR": {
-      "signal": "BUY"
+      "signal": "SELL"
     },
     "Aroon": {
-      "up": 4.0,
-      "down": 68.0,
-      "signal": "NEUTRAL"
+      "up": 8.0,
+      "down": 72.0,
+      "signal": "SELL"
     },
     "EMA20": {
-      "value": 12722.16,
-      "signal": "BUY"
+      "value": 12721.77,
+      "signal": "SELL"
     },
     "EMA50": {
-      "value": 12777.51,
-      "signal": "BUY"
+      "value": 12775.17,
+      "signal": "SELL"
     },
     "EMA100": {
-      "value": 12833.54,
-      "signal": "BUY"
+      "value": 12830.94,
+      "signal": "SELL"
     },
     "EMA200": {
-      "value": 12803.12,
-      "signal": "BUY"
+      "value": 12798.65,
+      "signal": "SELL"
     },
     "SMA20": {
-      "value": 12482.9,
+      "value": 12557.15,
       "signal": "BUY"
     },
     "SMA50": {
-      "value": 12668.48,
+      "value": 12652.84,
       "signal": "BUY"
     },
     "SMA200": {
-      "value": 12224.15,
+      "value": 12236.04,
       "signal": "BUY"
     },
     "BollingerBands": {
-      "upper": 13821.22,
-      "middle": 12482.9,
-      "lower": 11144.58,
+      "upper": 13768.62,
+      "middle": 12557.15,
+      "lower": 11345.68,
       "signal": "NEUTRAL"
     },
     "KeltnerChannel": {
-      "upper": 13612.06,
-      "middle": 12722.16,
-      "lower": 11832.26
+      "upper": 13648.17,
+      "middle": 12721.77,
+      "lower": 11795.37
     },
     "DonchianChannel": {
       "upper": 13655.0,
       "lower": 10932.0
     },
     "ATR": {
-      "value": 391.79
+      "value": 413.43
     },
     "StandardDeviation": {
-      "value": 669.16
+      "value": 605.73
     },
     "OBV": {
-      "value": -3188546,
+      "value": -3478217,
       "signal": "SELL"
     },
     "CMF": {
-      "value": 0.2597,
+      "value": 0.2146,
       "signal": "BUY"
     },
     "VWAP": {
-      "value": 11931.18,
+      "value": 11930.9,
       "signal": "BUY"
     },
     "EaseOfMovement": {
-      "value": 6278736.5002
+      "value": 3589985.6214
     }
   }
 }
